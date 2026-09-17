@@ -1,10 +1,10 @@
-# Hi there, I'm Noor M. Rasel 👋
+# Hi! This is Noor M. Rasel
 
-[![Website](https://img.shields.io/badge/Website-noor--rasel.github.io-blue)](https://noor-rasel.github.io/)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue)](https://scholar.google.com/citations?user=KGMNhDIAAAAJ&hl=en)[span_0](start_span)[span_0](end_span)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2)](https://www.linkedin.com/in/noor-m-rasel/)[span_1](start_span)[span_1](end_span)
+[Personal Website](https://noor-rasel.github.io/)|
+[Google Scholar](https://scholar.google.com/citations?user=KGMNhDIAAAAJ&hl=en)|
+[LinkedIn Profile](https://www.linkedin.com/in/noor-m-rasel/)
 
-PhD Researcher in Medical Physics at the **University of Texas at Arlington (UTA)**[span_2](start_span)[span_2](end_span). My research focuses on nuclear medicine imaging integrated with radiotherapy, specializing in advanced image reconstruction, Monte Carlo simulations, and artificial intelligence-driven algorithms for SPECT and Biology-guided PET (BgPET) systems[span_3](start_span)[span_3](end_span).
+I am a PhD Researcher in Medical Physics at the Dept. of Physics, University of Texas at Arlington. My research focuses on nuclear medicine imaging, including theranostics. I work closely on advanced image reconstruction techniques, Monte Carlo simulations, and artificial intelligence-driven algorithm development for SPECT and PET systems, focusing on attenuation correction (AC), motion correction, denoising in gated acquisitions, and image guidance of dosimetry for emergent targeted alpha therapy (TAT) techniques.
 
 ---
 
