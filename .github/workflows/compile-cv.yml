@@ -1,0 +1,31 @@
+name: Build and Publish CV PDF
+
+on:
+  push:
+    paths:
+      - 'cv.tex'
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git Repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX Document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+
+      - name: Move PDF to Assets
+        run: |
+          mkdir -p assets
+          mv cv.pdf assets/CV_Noor_Rasel.pdf
+
+      - name: Commit and Push Updated PDF
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/CV_Noor_Rasel.pdf
+          git commit -m "auto: compile updated cv.tex to pdf" || exit 0
+          git push
