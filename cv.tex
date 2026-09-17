@@ -1,23 +1,79 @@
 \documentclass[11pt,letterpaper]{article}
 \usepackage[margin=0.75in]{geometry}
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% Section title formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\pagestyle{empty}
 
 \begin{document}
 
+% Header / Personal Info
 \begin{center}
-    {\Huge \textbf{Noor M. Rasel}}\\ \vspace{1mm}
-    PhD Researcher in Medical Physics | University of Texas at Arlington\\
-    Email: \href{mailto:nxr7226@mavs.uta.edu}{nxr7226@mavs.uta.edu} | 
-    \href{https://noor-rasel.github.io}{noor-rasel.github.io}
+    {\Huge \textbf{Noor M. Rasel}}\\ \vspace{1.5mm}
+    PhD Researcher in Medical Physics $|$ Department of Physics, UT Arlington\\ \vspace{1mm}
+    Arlington, TX 76013 $|$ (+1) 682-340-7333 $|$ \href{mailto:nxr7226@mavs.uta.edu}{nxr7226@mavs.uta.edu}\\ \vspace{1mm}
+    \href{https://noor-rasel.github.io}{noor-rasel.github.io} $|$ 
+    \href{https://scholar.google.com/citations?user=KGMNhDIAAAAJ&hl=en}{Google Scholar} $|$ 
+    \href{https://www.linkedin.com/in/noor-m-rasel/}{LinkedIn}
 \end{center}
 
-\section*{Education}
-\textbf{Ph.D. in Physics (Medical Physics Track)}, University of Texas at Arlington \hfill 2023--Present\\
-\textbf{M.Sc. in Physics}, University of Chittagong \hfill 2017
+% Professional Summary
+\section*{Professional Summary}
+PhD researcher in nuclear medicine imaging integrated with radiotherapy with a focus on advanced image reconstruction and artificial intelligence-driven algorithm development for myocardial perfusion imaging (MPI) and lung cancer imaging in SPECT and Biology-guided PET (BgPET) systems.
 
+% Education
+\section*{Education}
+\textbf{Ph.D. in Physics and Applied Physics (Medical Physics Track)} \hfill Fall 2023 -- Present\\
+University of Texas at Arlington, Arlington, TX, USA\\[1.5mm]
+\textbf{M.Sc. in Physics (Focused on Medical Physics)} \hfill 2017\\
+University of Chittagong, Bangladesh
+
+% Selected Publications
 \section*{Selected Publications}
-\begin{enumerate}
-    \item \textbf{Rasel, N. M.}, et al. ``Investigation of Attenuation Correction Methods for Dual-Gated SPECT.'' \textit{Bioengineering}, 12(11), 2025.
+\begin{enumerate}[leftmargin=1.5em, itemsep=2pt]
+    \item \textbf{Rasel, N. M.}, et al. ``Investigation of Attenuation Correction Methods for Dual-Gated Single Photon Emission Computed Tomography (DG-SPECT).'' \textit{Bioengineering}, 2025, 12(11), pp. 1195.
+    \item \textbf{Rasel, N. M.}, et al. ``Depth Dose Distributions of Therapeutic Electron Beam from Varian Linac: Monte Carlo Study and Experimental Measurements.'' \textit{Medical Physics International}, 2024, 12(1), pp. 78--82.
+    \item \textbf{Rasel, N. M.}, et al. ``Monte Carlo Simulation and Experimental Determination of Tissue Phantom Ratio for Photon Beams delivered from Medical Linear Accelerator.'' \textit{Iranian Journal of Physics Research}, 2021, 21(3), pp. 55--61.
+    \item \textbf{Rasel, N. M.}, et al. ``Monte Carlo Simulation and Experimental Determination of Tissue Phantom Ratio for Megavoltage Photon Beam.'' \textit{Proceedings of IEICES}, Kyushu University, Japan, 2020 (06), pp. 67--72.
 \end{enumerate}
+
+% Technical Skills
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item \textbf{Imaging \& Simulation:} GATE, SIMIND Monte Carlo toolkits, NCAT and XCAT computational phantoms.
+    \item \textbf{Programming \& AI Frameworks:} Python, PyTorch, MATLAB.
+    \item \textbf{Reconstruction \& Tools:} STIR and CASTOR frameworks, Linux, Shell scripting, Git/GitHub, LaTeX, EndNote.
+\end{itemize}
+
+% Honors & Awards
+\section*{Honors \& Awards}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item \textbf{Truman D. Black Endowed Scholarship in Physics}, UT Arlington \hfill Spring 2025
+    \item \textbf{Michael and Wanda Ray Scholarship}, College of Science, UT Arlington \hfill Fall 2023
+\end{itemize}
+
+% Professional Memberships
+\section*{Professional Memberships}
+\begin{itemize}[leftmargin=1.5em, itemsep=2pt]
+    \item AAPM (American Association of Physicists in Medicine)
+    \item IEEE-NPSS (Nuclear \& Plasma Sciences Society)
+\end{itemize}
+
+% References
+\section*{References}
+\textbf{Dr. Mingwu Jin}\\
+Professor, Department of Physics, University of Texas at Arlington\\
+Email: \href{mailto:mingwu@uta.edu}{mingwu@uta.edu} $\vert{}$ Phone: +1 (817) 272-6262
 
 \end{document}
